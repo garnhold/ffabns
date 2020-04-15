@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="&quot;/home/garrett/Documents/Programming/TextSquish/TextSquish/bin/Release/TextSquish.exe&quot; -d &quot;.&quot; -i &quot;*.js&quot; -o &quot;../Application.js&quot;" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="JavaScript" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Squish" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="mono" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Code" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>
