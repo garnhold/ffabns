@@ -17,7 +17,7 @@ class RequestType
 
     isNewSession()
     {
-        if(Alexa.isNewSession(this.requestEnvelope))
+        if(this.getHandlerName() === 'LaunchRequest')
             return true;
 
         return false;

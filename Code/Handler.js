@@ -22,14 +22,16 @@ function RequestHandler(cls)
 
             console.log('Starting ' + requestType.getHandlerName() + ' Request');
 
-            builder.withShouldEndSession(null);
+            if(requestType.getHandlerName() === 'System.ExceptionEncountered')
+                console.log('System exception encountered: ' + JSON.stringify(handlerInput.requestEnvelope.request.error));
+            else
+            {
+                await persistence.load(builder, requestType.isNewSession());
+                    await requestType.invokeHandler(persistence.getInstance());
+                await persistence.save();
+            }
 
-            await persistence.load(builder, requestType.isNewSession());
-                await requestType.invokeHandler(persistence.getInstance());
-            await persistence.save();
-
-            return builder
-                .getResponse();
+            return builder.getResponse();
         }
     };
 }

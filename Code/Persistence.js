@@ -14,7 +14,7 @@ class Persistence
         if(isNewSession)
             this.instance = new this.cls();
         else
-            this.instance = createObjectFromTypedInfo(attributes.instance || {});
+            this.instance = createValueFromTypedInfo(attributes.instance || {});
 
         this.data = attributes.data || {};
 
@@ -36,7 +36,7 @@ class Persistence
         delete this.instance.builder;
 
         let attributes = {
-            instance: createTypedInfoFromObject(this.instance),
+            instance: createTypedInfoFromValue(this.instance),
             data: this.data
         };
 

@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7eb94db-5637-4e22-a4d4-6070f917ff5c" name="Default Changelist" comment="" />
+    <list default="true" id="a7eb94db-5637-4e22-a4d4-6070f917ff5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.js" beforeDir="false" afterPath="$PROJECT_DIR$/Application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/1header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/1header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Persistence.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Persistence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/RequestType.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/RequestType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Serialization.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Serialization.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="NamedScopeManager">
     <scope name="Code" pattern="file[ffabns]:Code/*" />
   </component>
   <component name="ProjectId" id="1aYR11ID8vicEc5qcpE8mwEHvdQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
